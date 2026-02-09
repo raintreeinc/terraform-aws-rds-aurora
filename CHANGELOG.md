@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [10.2.0](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v10.1.0...v10.2.0) (2026-01-08)
+
+### Features
+
+* Add provider meta user-agent ([#535](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/issues/535)) ([b77f667](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/commit/b77f667db086c023139773180100232110811147))
+
+## [10.1.0](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v10.0.2...v10.1.0) (2026-01-08)
+
+### Features
+
+* Add `upgrade_rollout_order` for RDS cluster, `force_destroy` for DSQL cluster, and `master_password_wo` variable adjustments ([#536](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/issues/536)) ([cc11f09](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/commit/cc11f099ba3f2ac247fab83941ba41e8480b0f0e))
+
+## [10.0.2](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v10.0.1...v10.0.2) (2025-11-17)
+
+### Bug Fixes
+
+* Set correct security group description ([#527](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/issues/527)) ([ce34e26](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/commit/ce34e26b7252c1c5d02361e9a3aa3b5337f2dca1))
+
+## [10.0.1](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v10.0.0...v10.0.1) (2025-11-17)
+
+### Bug Fixes
+
+* Correct iterator name in dynamic timeouts blocks ([#526](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/issues/526)) ([9acb2b7](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/commit/9acb2b78d80226ea7330a2ee22f7b2875284916a))
+
+## [10.0.0](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v9.16.1...v10.0.0) (2025-11-15)
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade AWS provider and min required Terraform version to `6.18` and `1.11` respectively (#525)
+
+### Features
+
+* Upgrade AWS provider and min required Terraform version to `6.18` and `1.11` respectively ([#525](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/issues/525)) ([2bf4622](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/commit/2bf462260b78f23761eb6d3e8f1135d9cc3207bd))
+
 ## [9.16.1](https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/compare/v9.16.0...v9.16.1) (2025-10-21)
 
 ### Bug Fixes
